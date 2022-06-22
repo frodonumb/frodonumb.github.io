@@ -11,6 +11,10 @@ header h1 {
     color: #F1F1F1;
 }
 
+.DropCap {
+    font-size: 1.5em;
+}
+
 header h5 {
     color: #F1F1F1;
 }
@@ -20,6 +24,10 @@ main {
     padding-right: 10pt;
     padding-bottom: 10pt;
     padding-top: 10pt;
+}
+
+main a {
+    text-decoration: none;
 }
 
 body {
@@ -50,4 +58,25 @@ body {
 .aboutText {
     font-size: 15pt;
     font-family: 'Times New Roman', Times, serif;
+}
+
+.courseTable {
+    margin-inline-start: 40px;
+}
+
+table,
+th,
+td {
+    border: 0.5px solid #323639;
+    text-align: center;
+}
+
+th,
+td {
+    padding: 5pt;
+    background-color: none;
+}
+
+footer {
+    padding: 10pt;
 }
