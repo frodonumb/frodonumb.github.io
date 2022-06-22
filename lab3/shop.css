@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    background-color: #d7e5ef;
+}
+
+table,
+th,
+td {
+
+    border: 1px solid black;
+}
+
+th,
+td {
+    padding: 2pt;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    background-color: #308fd8;
+    color: white;
+}
+
+#left {
+    width: 20%;
+}
+
+#center {
+    width: 60%;
+    text-align: center;
+}
+
+#right {
+    width: 20%;
+    position: relative;
+}
+
+.logo {
+    width: 5vw;
+    height: 5vw;
+}
+
+#welcomeTitle {
+    font: bold;
+    font-size: 20pt;
+}
+
+.button {
+    padding: 10pt;
+}
+
+#logoutBtn {
+    text-align: end;
+    padding-right: 30pt;
+}
+
+.logoutBtn {
+    padding: 5pt;
+    border: 4px solid #2878b5;
+    border-radius: 8pt;
+    background-color: #2878b5;
+    color: white;
+}
+
+.logoutBtn:hover {
+    background: #06487a;
+    border: 4px solid #06487a;
+    color: white;
+}
+
+.listTitle {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+}
+
+main {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.tableSummary {
+    border: none;
+}
+
+.tableSummaryBtn {
+    padding: 10pt;
+    text-align: end;
+}
+
+.qty {
+    width: auto;
+}
+
+.textCenterAlign{
+    text-align: center;
+}

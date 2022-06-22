@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shooping List</title>
+    <link href="./shop.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <header class="container">
+        <div id="left">
+            <div class="logoContainer">
+                <img class="logo" src="./logo.png">
+            </div>
+        </div>
+
+        <div id="center">
+            <span id="welcomeTitle">Welcome, Javokhir</span>
+        </div>
+
+        <div id="right">
+            <div class="button" id="logoutBtn">
+                <span class="logoutBtn">Logout</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <h2 class="listTitle">Product List</h2>
+
+        <table>
+            <tr>
+                <td>Name</td>
+                <td>Price</td>
+                <td>Strock</td>
+                <td>Action</td>
+            </tr>
+            <tr>
+                <td>Node.js</td>
+                <td>9.99</td>
+                <td>8</td>
+                <td><img src="cart.svg" alt="cart"></td>
+            </tr>
+            <tr>
+                <td>React</td>
+                <td>19.99</td>
+                <td>5</td>
+                <td><img src="cart.svg" alt="cart"></td>
+            </tr>
+            <tr>
+                <td>Angular</td>
+                <td>29.99</td>
+                <td>13</td>
+                <td><img src="cart.svg" alt="cart"></td>
+            </tr>
+        </table>
+
+        <h2 class="listTitle">Your shopping cart</h2>
+
+        <table>
+            <tr>
+                <td>Name</td>
+                <td>Price</td>
+                <td>Total</td>
+                <td>Quantity</td>
+            </tr>
+            <tr>
+                <td>Node.js</td>
+                <td>9.99</td>
+                <td>9.99</td>
+                <td class="qty, textCenterAlign">
+                    <input type="button" value="-" />
+                    <input class="textCenterAlign" type="text" value="1" size="5" readonly/>
+                    <input type="button" value="+" />
+                </td>
+            </tr>
+            <tr>
+                <td>Angular</td>
+                <td>29.99</td>
+                <td>290.99</td>
+                <td class="qty, textCenterAlign">
+                    <input type="button" value="-" />
+                    <input class="textCenterAlign" type="text" value="10" size="5" readonly/>
+                    <input type="button" value="+" />
+                </td>
+            </tr>
+
+            <tr>
+                <td class="tableSummary" colspan="4">
+                    <div class="button, tableSummaryBtn">
+                        <span class="logoutBtn">Place Order</span>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
