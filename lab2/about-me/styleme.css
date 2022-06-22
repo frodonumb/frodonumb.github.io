@@ -1,0 +1,53 @@
+header {
+    padding-left: 10pt;
+    padding-right: 10pt;
+    padding-bottom: 10pt;
+    padding-top: 10pt;
+    background-color: #323639;
+    text-align: center;
+}
+
+header h1 {
+    color: #F1F1F1;
+}
+
+header h5 {
+    color: #F1F1F1;
+}
+
+main {
+    padding-left: 10pt;
+    padding-right: 10pt;
+    padding-bottom: 10pt;
+    padding-top: 10pt;
+}
+
+body {
+    margin: 0%;
+    background-color: #F1F1F1;
+}
+
+.moodsImage {
+    width: 20vw;
+    height: 10vw;
+}
+
+.neighbor {
+    color: #1A8917;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.highlightDBlue {
+    color: #F24719;
+    font-weight: bold;
+}
+
+.aboutTextTitle {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.aboutText {
+    font-size: 15pt;
+    font-family: 'Times New Roman', Times, serif;
+}
