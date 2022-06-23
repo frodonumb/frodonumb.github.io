@@ -4,8 +4,6 @@
 
 body {
     margin: 0;
-    padding-left: 40pt;
-    padding-right: 40pt;
     padding-bottom: 40pt;
 }
 
@@ -96,4 +94,6 @@ form main .registerTitle {
 .container {
     background-color: #EDF5E1;
     box-shadow: 5px 10px 18px #888888;
+    width: 90%;
+    margin: auto;
 }
