@@ -96,6 +96,10 @@ main {
     width: auto;
 }
 
-.textCenterAlign{
+.textCenterAlign {
     text-align: center;
+}
+
+footer {
+    padding: 20pt;
 }

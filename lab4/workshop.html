@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./workshop.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h2>Workshop Registration</h2>
+            <select class="menuOption">
+                <option selected disabled hidden>
+                    More action
+                </option>
+                <option>
+                    Next Page
+                </option>
+                <option>
+                    Previous Page
+                </option>
+                <option>
+                    Exit
+                </option>
+            </select>
+        </header>
+
+        <form>
+            <main class="content">
+
+                <span class="underlineText registerTitle">Register now while seats are available!</span>
+
+                <div class="mainLayout">
+
+                    <div class="leftLayout">
+                        <div class="line">
+                            <label class="leftItem">First Name <span class="mustHave">*</span></label>
+                            <input class="rightItem" type="text" name="firstName" required value="Javokhir">
+                        </div>
+                        <div class="line">
+                            <label class="leftItem">Last Name <span class="mustHave">*</span></label>
+                            <input class="rightItem" type="text" name="lastName" required value="Mamadiyarov">
+                        </div>
+                        <div class="line">
+                            <label class="leftItem">Company/Institution <span class="mustHave">*</span></label>
+                            <input class="rightItem" type="text" name="company-institution" required value="MIU">
+                        </div>
+                        <div class="line">
+                            <label class="leftItem">Address <span class="mustHave">*</span></label>
+                            <textarea class="rightItem" rows="5" name="address" required>1000 N 4TH ST</textarea>
+                        </div>
+                        <div class="line">
+                            <label class="leftItem">City</label>
+                            <input class="rightItem" type="text" name="city">
+                        </div>
+                        <div class="line">
+                            <label class="leftItem">State/Province/Region</label>
+                            <select class="rightItem" name="state">
+                                <option selected>-Select-</option>
+                                <option>IOWA</option>
+                                <option>California</option>
+                                <option>Washington</option>
+                                <option>Utah</option>
+                            </select>
+                        </div>
+                        <div class="line">
+                            <label class="leftItem">Country</label>
+                            <select class="rightItem" name="country">
+                                <option selected>-Select-</option>
+                                <option>USA</option>
+                                <option>CANADA</option>
+                                <option>ITALY</option>
+                                <option>GB</option>
+                            </select>
+                        </div>
+                        <div class="line">
+                            <label class="leftItem">Email <span class="mustHave">*</span></label>
+                            <input class="rightItem" type="email" name="email" required>
+                        </div>
+                        <div class="line">
+                            <label class="leftItem">Phone Number <span class="mustHave">*</span></label>
+                            <input class="rightItem" type="tel" name="phone" required pattern="[0-9]{3}[0-9]{7}">
+                        </div>
+                    </div>
+
+                    <div class="rightLayout">
+                        <div class="line">
+                            <label class="underlineText">Lunch</label>
+                        </div>
+                        <div class="line">
+                            <label class="leftItem">Meal Preference</label>
+                            <select class="rightItem" name="mealPreference">
+                                <option selected>Vegetarian</option>
+                                <option>Vegan</option>
+                                <option>Non vegetarian</option>
+                                <option>Halal</option>
+                                <option>Kosher</option>
+                            </select>
+                        </div>
+
+                        <div class="line">
+                            <label class="underlineText">Payment Details</label>
+                        </div>
+                        <div class="line">
+                            <label class="underlineText leftItem">Payment Mode</label>
+                            <div class="rightItem" name="paymentMode">
+                                <p><label><input type="radio" name="paymentMode" /> Cash</label></p>
+                                <p><label><input type="radio" name="paymentMode" /> Cheque</label></p>
+                                <p><label><input type="radio" name="paymentMode" /> Demand draft</label></p>
+                            </div>
+                        </div>
+                        <div class="line">
+                            <label class="leftItem">DD/Cheque No.</label>
+                            <input class="rightItem" type="text" name="chequeNumber">
+                        </div>
+                        <div class="line">
+                            <label class="leftItem">Drawn On (Bank Name)</label>
+                            <input class="rightItem" type="text" name="bankName">
+                        </div>
+                        <div class="line">
+                            <label class="leftItem">Payable at</label>
+                            <input class="rightItem" type="text" name="payableAt">
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+            <div class="formFooter">
+                <div class="leftItem">
+                    <a href="https://jigsaw.w3.org/css-validator/validator?uri=https://frodonumb.github.io">
+                        <img src="../lab2/about-me/css_checker.png" alt="css" width="90" , height="30" />
+                    </a>
+
+                    <a href="https://validator.w3.org/nu/?doc=https://frodonumb.github.io">
+                        <img src="../lab2/about-me/html_checker.png" alt="html" width="90" , height="30" />
+                    </a>
+                </div>
+                <div class="rightItem">
+                    <button class="submitBtn" type="submit">Submit</button>
+                    <button class="resetBtn" type="reset">Reset</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

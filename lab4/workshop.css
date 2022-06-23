@@ -1,0 +1,99 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    margin: 0;
+    padding-left: 40pt;
+    padding-right: 40pt;
+    padding-bottom: 40pt;
+}
+
+header {
+    padding: 10pt;
+    background-color: #A2CBBC;
+    display: flex;
+    align-items: center;
+}
+
+body header .menuOption {
+    margin-left: 25pt;
+    background-color: #a2cbbc00;
+    border: 0px;
+    height: 20pt;
+    font-size: 12pt;
+}
+
+.underlineText {
+    text-decoration: underline;
+}
+
+form .content {
+    padding-left: 50pt;
+    padding-right: 50pt;
+    padding-top: 20pt;
+    padding-bottom: 20pt;
+}
+
+form main .registerTitle {
+    font-size: 12pt;
+}
+
+.mainLayout {
+    display: flex;
+}
+
+.leftLayout {
+    flex: 1;
+    padding-right: 20pt;
+}
+
+.rightLayout {
+    padding-left: 20pt;
+    flex: 1;
+}
+
+.line {
+    display: flex;
+    padding-top: 5pt;
+    padding-bottom: 5pt;
+}
+
+.leftItem {
+    flex: 1;
+}
+
+.rightItem {
+    flex: 1;
+}
+
+.mustHave {
+    color: red;
+}
+
+.formFooter {
+    display: flex;
+    padding: 10pt;
+    background-color: #c8e1d8;
+}
+
+.submitBtn {
+    background-color: #76a795;
+    border-color: #477061;
+    color: white;
+    font-size: 12pt;
+    border-radius: 5pt;
+}
+
+.resetBtn {
+    background-color: #e33939;
+    border-color: #a50c0c;
+    color: white;
+    font-size: 12pt;
+    border-radius: 5pt;
+}
+
+.container {
+    background-color: #EDF5E1;
+    box-shadow: 5px 10px 18px #888888;
+}
